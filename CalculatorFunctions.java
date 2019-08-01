@@ -19,6 +19,11 @@ public class CalculatorFunctions {
 	{
 	return (a/b);
 	}
+	public Float mod(int a,int b)
+	{
+	return (float) (a % b);
+	}
+
 
 	
 

@@ -15,7 +15,7 @@ public class Calculator {
 		System.out.println("Please enter input2");
 		Integer B=scan.nextInt();
 		
-		System.out.println("Please enter your operation");
+		System.out.println("Please enter your desired operation");
 		String C=scan.next();
 		
 		switch( C)
@@ -32,7 +32,11 @@ public class Calculator {
 		case "/":
 			System.out.println(cf.div(A, B));
 			break;
+		case "%":
+			System.out.println(cf.mod(7, 4));
 			default:System.out.println("Invalid input");
+			
+				
 		}
 	}
 
